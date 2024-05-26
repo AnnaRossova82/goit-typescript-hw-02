@@ -6,7 +6,7 @@ import { fetchImages } from '../Images-api';
 import { Audio } from 'react-loader-spinner';
 import ImageModal from './ImageModal/ImageModal';
 import LoadMoreBtn from './LoadMoreBtn/LoadMoreBtn';
-import { Image } from '../types';
+import { Image } from './types';
 
 const App: React.FC = () => {
   const [images, setImages] = useState<Image[]>([]);
